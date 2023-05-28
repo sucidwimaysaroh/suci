@@ -1,0 +1,31 @@
+import './style/styles.css';
+import './style/viewport.css';
+import './scripts/main.js';
+
+// import images
+import './images/arrow_back_left.svg';
+import './images/arrow_back_right.svg';
+import './images/chevron_right.svg';
+import './images/company_gusto.svg';
+import './images/company_stripe.svg';
+import './images/company_treehouse.svg';
+import './images/company_upword.svg';
+import './images/five.svg';
+import './images/icon.svg';
+import './images/keyboard_arrow_down.svg';
+import './images/livingroom_dua.svg';
+import './images/livingroom_satu.svg';
+import './images/livingroom_tiga.svg';
+import './images/logo.svg';
+import './images/mail.svg';
+import './images/menu_close.svg';
+import './images/menu_left.svg';
+import './images/play_circle_outline.svg';
+import './images/sample_kursi_orange.svg';
+import './images/sample_kursi_putih.svg';
+import './images/sample_sofa.svg';
+import './images/samplee.svg';
+import './images/search_brown.svg';
+import './images/search_white.svg';
+import './images/shopping_bag.svg';
+import './images/work_outline_white.svg';

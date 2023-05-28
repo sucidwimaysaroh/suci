@@ -1,0 +1,550 @@
+@media screen and (min-width: 789px) {    
+    /* HEADER */
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 13.1vw;
+        padding: 3.1vw 6.9vw;
+        box-shadow: 0vw 0.6vw 1.3vw rgba(0, 0, 0, 0.05);
+    }
+
+    header img {
+        height: 3.3vw;
+    }
+
+    .sidepanel {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 13.1vw;
+    }
+
+    .top-bar-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 3.3vw;
+        margin: 0vw;
+        padding: 0vw;
+    }
+
+    .top-bar-button li {
+        list-style-type: none;
+    }
+
+    .top-bar-button a {
+        font-size: 1.1vw;
+        font-weight: 500;
+        letter-spacing: -0.05vw;
+        line-height: 1.6vw;
+        color: #000000;
+    }
+
+    .top-bar-button img {
+        width: 1.6vw;
+        height: 1.6vw;
+    }
+
+    .close-sidepanel, .open-sidepanel {
+        display: none;
+    }
+
+    .header-button {
+        display: flex;
+        align-items: center;
+        gap: 1.1vw;
+    }
+
+    .btn-sign-up {
+        font-size: 1.1vw;
+        font-weight: 500;
+        letter-spacing: -0.05vw;
+        line-height: 1.6vw;
+        color: #2F241F;
+        padding: 0.9vw 1.6vw;
+        background-color: #E5F0B6;
+        border: none;
+        border-radius: 0.5vw;
+        width: max-content;
+    }
+
+    .btn-shop {
+        padding: 0.8vw;
+        background-color: #553B33;
+        border: none;
+        border-radius: 0.5vw;
+    }
+
+    .btn-shop img {
+        width: 1.6vw;
+        height: 1.6vw;
+    }
+
+    .dropdown {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .dropdown-content li {
+        padding: 1vw 0vw;
+    }
+    
+    li {
+        position: relative;
+        transition-duration: 0.5s;
+    }
+    
+    ul li ul {
+        background: #FCFAFA;
+        position: absolute;
+        transition: all 0.5s ease;
+        display: none;
+        padding: 1vw;
+        width: max-content;
+        border-radius: 0.8vw;
+    }
+    
+    ul li:hover > ul,
+    ul li:focus-within > ul,
+    ul li ul:hover,
+    ul li ul:focus {
+        visibility: visible;
+        display: block
+    }
+
+    /* SECTION MAIN HERO */
+    .main-hero {
+        flex-direction: row;
+    }
+    
+    .hero-title {
+        justify-content: center;
+        font-size: 3.4vw;        
+        line-height: normal;
+        gap: 3.3vw;
+        padding: 0vw 4.4vw 0vw 9.8vw;
+        text-align: left;
+    }
+    
+    h1 {
+        font-weight: 800;
+        margin: 0vw;
+    }
+    
+    .hero-title-button {
+        flex-direction: row;
+        gap: 1.6vw;
+    }
+    
+    .btn-search-catalog, .btn-watch-videos {
+        gap: 1.1vw;
+        padding: 1.5vw 2.5vw;
+        font-size: 1.6vw;
+        font-weight: 400;
+        border-radius: 0.8vw;
+        width: 23.8vw;
+        line-height: 2.5vw;
+    }
+    
+    .btn-watch-videos {
+        border: 0.1vw solid #553B33;
+    }
+
+    .hero-title-button img {
+        height: 1.6vw;
+    }
+    
+    .hero-desc {
+        justify-content: flex-end;
+        /* background: url('../images/samplee.svg') no-repeat; */
+        background: url('../../dist/images/samplee.svg') no-repeat;
+        background-size: 100% 49.2vw;
+        width: 100%;
+        height: 49.2vw;
+        padding: 0vw 3.3vw 6.1vw 3.3vw;
+    }
+
+    .hero-desc-pricebtn {
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        gap: 0.5vw;
+    }
+    
+    .hero-desc h2 {
+        display: none;
+    }
+    
+    .hero-desc span {
+        font-size: 1.6vw;
+        padding: 0.5vw 1.1vw;
+        border-radius: 0.8vw;
+    }
+    
+    .hero-desc p {
+        font-size: 4.4vw;
+        margin: 0vw;
+    }
+    
+    .btn-view-details {
+        gap: 1.1vw;
+        font-size: 1.1vw;
+        padding: 1.1vw 1.6vw;
+        border-radius: 0.8vw;
+    }
+    
+    .btn-view-details img {
+        height: 1.6vw;
+    }
+    
+    /* SECTION MAIN ABOUT US */
+    .main-about-us {
+        align-items: start;
+        gap: 2.7vw;
+        padding: 5vw 9.8vw;
+    }
+    
+    .main-about-us h2 {
+        font-size: 1.6vw;
+        line-height: 2.5vw;
+    }
+    
+    .main-about-us p {
+        font-size: 4.2vw;
+        letter-spacing: -0.05vw;
+        line-height: normal;
+        text-align: left;
+        padding-bottom: 0vw;
+    }
+    
+    .about-us-features {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .feature {
+        gap: 1.1vw;
+    }
+    
+    .feature span {
+        width: 2.7vw;
+        padding: 0.5vw;
+        border-radius: 0.5vw;
+    } 
+    
+    .feature img {
+        height: 1.6vw;
+        width: 1.6vw;
+    }
+    
+    .feature p {
+        font-size: 1.6vw;
+        line-height: 2.5vw;
+    }
+    
+    /* SECTION MAIN PARTNER */
+    .main-partner {
+        flex-direction: row;
+        justify-content: center;
+        gap: 10.4vw;
+        padding: 5.5vw 9.8vw;
+    }
+    
+    .partner-text {
+        align-items: start;
+    }
+    
+    .partner-text p {
+        font-size: 6.6vw;
+        font-weight: 700;
+        letter-spacing: -0.5vw;
+        line-height: normal;
+        text-align: start;
+    }
+    
+    .partner-text h2 {
+        font-size: 1.6vw;
+        line-height: normal;
+        width: max-content;
+    }
+    
+    .partner-logo {
+        width: 53vw;
+    }
+    
+    .partner-logo img {
+        height: 3.6vw;
+    }
+    
+    /* SECTION MAIN RECOMMENDTAION */
+    .main-recomm {
+        flex-direction: row-reverse;
+        padding: 5.5vw 9.8vw 5.5vw 0vw;
+        gap: 3.3vw;
+    }
+    
+    .recomm-details {
+        gap: 2.2vw;
+    }
+    
+    .details-title {
+        align-items: start;
+        gap: 2.2vw;
+        text-align: left;
+    }
+    
+    .details-title h2 {
+        font-size: 1.6vw;
+        letter-spacing: -0.05vw;
+        line-height: 2.5vw;
+    }
+    
+    .details-title p {
+        font-size: 3.3vw;
+        letter-spacing: -0.05vw;
+        line-height: normal;
+    }
+    
+    .category-desc {
+        gap: 0.8vw;
+        padding: 1.3vw 1.1vw;
+        width: 30vw;
+    }
+    
+    .top {
+        border-radius: 0.8vw 0.8vw 0vw 0vw;
+    }
+    
+    .bottom {
+        border-radius: 0vw 0vw 0.8vw 0.8vw;
+    }
+    
+    .category-desc h3 {
+        font-size: 1.25vw;
+        letter-spacing: -0.05vw;
+    }
+    
+    .category-desc p {
+        font-size: 0.9vw;
+        line-height: 1.3vw;
+    }
+
+    .recomm-pictures {
+        gap: 1.66vw;
+    }
+    
+    .recomm-picture {
+        width: 10.3vw;
+        height: 36.3vw;
+        object-fit: cover;
+        border-radius: 0.8vw;
+    }
+
+    .recomm-picture-selected {
+        width: 33vw;
+        height: 36.3vw;
+        border-radius: 0.8vw;
+    }
+
+    .accordion {
+        background-color: #FCFAFA;
+        cursor: pointer;
+        transition: 0.4s;
+    }
+
+    .panel {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+    }
+    
+    /* SECTION MAIN BEST SELLER */
+    .main-bestseller {
+        gap: 3.3vw;
+        padding: 5.5vw 0vw;
+    }
+    
+    .main-bestseller-header {
+        padding: 0vw 9.8vw;
+    }
+    
+    .bestseller-header-title h2 {
+        font-size: 1.6vw;
+        letter-spacing: -0.05vw;
+        line-height: 2.5vw;
+    }
+    
+    .bestseller-header-title p {
+        font-size: 3.3vw;
+        letter-spacing: -0.05vw;
+        line-height: normal;
+    }
+    
+    .btn-see-more {
+        font-size: 1.1vw;
+        line-height: 1.6vw;
+        border-radius: 0.8vw;
+        padding: 0.9vw 2.5vw;
+    }
+    
+    .besseller-header-photos {
+        gap: 2.5vw;
+        padding: 0vw 2.5vw;
+    }
+    
+    .photos-desc {
+        gap: 0vw;
+        top: 202.5vw;
+        left: 28vw;
+    }
+    
+    .photos-desc span {
+        font-size: 1.6vw;
+        line-height: 2.5vw;
+        padding: 0.5vw 1.1vw;
+        border-radius: 0.8vw;
+    }
+    
+    .photos-desc p {
+        font-size: 3.3vw;
+        line-height: normal;
+    }
+
+    .header-photos {
+        width: 20.8vw;
+        height: 27.7vw;
+        border-radius: 0.8vw;
+    }
+    
+    .header-photos-selected {
+        width: 24.5vw;
+        height: 32.7vw;
+        border-radius: 0.8vw;
+    }
+    
+    .btn-arrow-left {
+        padding: 1.1vw;
+        border-radius: 4.3vw;
+        top: 211vw;
+        left: 80vw;
+    }
+    
+    .btn-arrow-right {
+        padding: 1.1vw;
+        border-radius: 4.3vw;
+        top: 211vw;
+        right: 10vw;
+    }
+    
+    .btn-arrow-left img{
+        width: 1.6vw;
+    }
+    
+    .btn-arrow-right img{
+        width: 1.6vw;
+    }
+    
+    /* SECTION MAIN NEWSLETTER */
+    .newsletter {
+        gap: 2.9vw;
+        padding: 5.5vw 9.8vw;
+    }
+    
+    .newsletter-title {
+        align-items: start;
+        text-align: left;
+        gap: 2.9vw;
+    }
+    
+    .newsletter-title h2 {
+        font-size: 1.6vw;
+        letter-spacing: -0.05vw;
+        line-height: 2.5vw;
+    }
+    
+    .newsletter-title p {
+        font-size: 4.4vw;
+        letter-spacing: -0.05vw;
+        line-height: normal;
+    }
+    
+    .newsletter-textfield {
+        justify-content: left;
+    }
+
+    .newsletter-textfield img {
+        width: 1.6vw;
+    }
+    
+    .input-newsletter {
+        font-size: 1.6vw;
+        letter-spacing: -0.05vw;
+        line-height: 2.5vw;
+        width: 34.9vw;
+        padding: 1.5vw 2.5vw;
+        border-radius: 0.8vw 0vw 0vw 0.8vw;
+    }
+    
+    .btn-newsletter {
+        padding: 1.9vw;
+        border-radius: 0vw 0.8vw 0.8vw 0vw;
+    }
+    
+    /* FOOTER */
+    footer {
+        flex-direction: row;
+        gap: 3.6vw;
+        padding: 5.5vw 6.9vw;
+    }
+    
+    .footer-dekoor {
+        align-items: start;
+        text-align: left;
+        gap: 1.7vw;
+        padding-right: 15vw;
+    }
+    
+    .footer-dekoor img {
+        height: 2.5vw;
+    }
+    
+    .footer-dekoor p {
+        font-size: 1.1vw; 
+        line-height: 1.6vw;
+        color: #667085;
+    }
+    
+    .dekoor-copyright {
+        display: flex;
+        padding-top: 2vw;
+    }
+    
+    .footer-center {
+        align-items: end;
+        gap: 3.6vw;
+    }
+    
+    .footer-info {
+        justify-content: end;
+        align-items: start;
+        gap: 1.7vw;
+        width: max-content;
+    }
+    
+    .footer-info ul {
+        align-items: start;
+        gap: 2.1vw;
+    }
+    
+    .footer-info h2 {
+        font-size: 1.3vw;
+        margin: 0;
+    }
+    
+    .footer-info a {
+        font-size: 1.1vw;
+        color: #667085;
+    }
+}
