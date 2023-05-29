@@ -22,8 +22,8 @@
 
     .top-bar-button {
         display: flex;
-        align-items: center;
-        justify-content: center;
+        align-items: baseline;
+        justify-content: baseline;
         gap: 3.3vw;
         margin: 0vw;
         padding: 0vw;
@@ -337,14 +337,16 @@
     
     .recomm-picture {
         width: 10.3vw;
-        height: 36.3vw;
+        height: 37.4vw;
         object-fit: cover;
         border-radius: 0.8vw;
+        transition: 0.2s ease-out;
     }
 
     .recomm-picture-selected {
         width: 33vw;
-        height: 36.3vw;
+        height: 37.4vw;
+        transition: 0.2s ease-out;
         border-radius: 0.8vw;
     }
 
@@ -357,7 +359,7 @@
     .panel {
         max-height: 0;
         overflow: hidden;
-        transition: max-height 0.2s ease-out;
+        transition: 0.2s ease-out;
     }
     
     /* SECTION MAIN BEST SELLER */
@@ -396,7 +398,7 @@
     
     .photos-desc {
         gap: 0vw;
-        top: 202.5vw;
+        top: 200vw;
         left: 28vw;
     }
     
@@ -427,14 +429,14 @@
     .btn-arrow-left {
         padding: 1.1vw;
         border-radius: 4.3vw;
-        top: 211vw;
+        top: 207.5vw;
         left: 80vw;
     }
     
     .btn-arrow-right {
         padding: 1.1vw;
         border-radius: 4.3vw;
-        top: 211vw;
+        top: 207.5vw;
         right: 10vw;
     }
     
