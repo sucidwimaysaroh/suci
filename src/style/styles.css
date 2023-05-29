@@ -495,7 +495,7 @@ h1 {
     flex-direction: column;
     gap: 1vw;
     position: absolute;
-    top: 522vw;
+    top: 573vw;
     left: 8vw;
 }
 
@@ -517,15 +517,15 @@ h1 {
     margin: 0vw;
 }
 
-.photos-big {
-    width: 48vw;
-    height: 64vw;
+.header-photos {
+    width: 40.75vw;
+    height: 54.25vw;
     border-radius: 3vw;
 }
 
-.photos-small {
-    width: 40.75vw;
-    height: 54.25vw;
+.header-photos-selected {
+    width: 48vw;
+    height: 64vw;
     border-radius: 3vw;
 }
 
@@ -535,7 +535,7 @@ h1 {
     border: none;
     border-radius: 15.5vw;
     position: absolute;
-    top: 504vw;
+    top: 560vw;
     left: 0vw;
 }
 
@@ -545,7 +545,7 @@ h1 {
     border: none;
     border-radius: 15.5vw;
     position: absolute;
-    top: 504vw;
+    top: 560vw;
     right: 0vw;
 }
 
