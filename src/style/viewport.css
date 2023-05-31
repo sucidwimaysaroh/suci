@@ -158,8 +158,6 @@
     
     .hero-desc {
         justify-content: flex-end;
-        /* background: url('../images/samplee.svg') no-repeat; */
-        background: url('../../dist/images/samplee.svg') no-repeat;
         background-size: 100% 49.2vw;
         width: 100%;
         height: 49.2vw;
@@ -424,6 +422,10 @@
         width: 24.5vw;
         height: 32.7vw;
         border-radius: 0.8vw;
+    }
+
+    .first, .fourth {
+        display: block;
     }
     
     .btn-arrow-left {
