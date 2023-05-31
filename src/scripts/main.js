@@ -1,7 +1,7 @@
 import $ from 'jquery';
 
 const SerpApi = require('google-search-results-nodejs');
-// const search = new SerpApi.GoogleSearch("52a84b214268af6c71ff31a9512cefc18eb10337d394d6c9287c042f88459aaf");
+const search = new SerpApi.GoogleSearch("52a84b214268af6c71ff31a9512cefc18eb10337d394d6c9287c042f88459aaf");
 
 function params (query) {
     return {
